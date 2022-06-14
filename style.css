@@ -1,0 +1,111 @@
+body{
+	font: normal 20px times new roman;
+	color: #00001c;
+	text-align: justify;
+	padding: 20px;
+	line-height: 2em;
+}
+
+h3{
+	color: red;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
+
+
+.Container{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.box-2{
+	justify-content: space-between;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-style: double;
+	border-color: black;
+	background-color: #00001c;
+	width: 320px;
+	border-radius: 12px;
+	color: white;
+}
+
+.h4{
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+.body-image{
+	display: flex;
+}
+
+.box-1{
+	justify-content: center;
+	align-items: center;
+	background: #005477;
+	padding: 15px;
+	padding-top: 0px;
+}
+
+
+.Container-2{
+	display: flex;
+	justify-content: center;
+	background: #00001c;
+	font-size: 16px;
+}
+
+ #Container-2-item: hover{
+	color: yellow;
+}
+
+.Container-2-item{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	text-decoration-line: none;
+}
+
+
+#Mission{
+	animation-name: blue-to-red;
+	animation-duration: 5s;
+}
+
+.p-item{
+	color: white;
+}
+
+
+@keyframes blue-to-red{
+	50%{
+		background: blue;
+		transform: translate(10px, 10px)
+	}
+	100%{
+		background: red;
+		transform: translate(20px, 20px)
+	}
+}
+
+.footer{
+	align-content: center;
+	color: #00001c;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	font-style: italic;
+}
+
+
+
+
+
+
+

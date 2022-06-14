@@ -1,0 +1,71 @@
+body{
+	color: #00001c;
+	padding: 20px;
+	font: 18px times new roman;
+	line-height: 3em;
+	width: 100%;
+}
+
+body h1{
+	color: red;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+h2{
+	color: red;
+	font-size: 18px;
+}
+
+
+
+
+.my-form label{
+display: block;
+}
+
+.my-form input[type="text"]{
+	padding: 8px;
+	width: 60%;
+	background: grey;
+}
+
+.my-form input[type="number"]{
+	padding: 8px;
+	width: 60%;
+	background: grey;
+}
+
+
+.button{
+	background-color: black;
+	color: white;
+}
+
+.button:hover{
+	color: red;
+}
+
+.clr{
+	clear: both;
+}
+
+
+.container{
+	display: flex;
+	background: #00001c;
+	justify-content: center;
+}
+
+.containerText{
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.footerText{
+	text-align: center;
+}
+
